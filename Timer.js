@@ -9,6 +9,7 @@ function Timer() {
         }, [time]);
         if(time === 0){
             alert("Time's Up")
+            return setTime(10);
         }
     return <h1>Time : {time}</h1>
 };
